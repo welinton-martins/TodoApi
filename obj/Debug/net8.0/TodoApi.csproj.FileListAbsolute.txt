@@ -33,3 +33,14 @@
 /home/ninja/TodoApi/obj/Debug/net8.0/TodoApi.pdb
 /home/ninja/TodoApi/obj/Debug/net8.0/TodoApi.genruntimeconfig.cache
 /home/ninja/TodoApi/obj/Debug/net8.0/ref/TodoApi.dll
+/home/user/development/TodoApi/obj/Debug/net8.0/TodoApi.csproj.AssemblyReference.cache
+/home/user/development/TodoApi/obj/Debug/net8.0/TodoApi.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/development/TodoApi/obj/Debug/net8.0/TodoApi.AssemblyInfoInputs.cache
+/home/user/development/TodoApi/obj/Debug/net8.0/TodoApi.AssemblyInfo.cs
+/home/user/development/TodoApi/obj/Debug/net8.0/TodoApi.csproj.CoreCompileInputs.cache
+/home/user/development/TodoApi/obj/Debug/net8.0/TodoApi.MvcApplicationPartsAssemblyInfo.cs
+/home/user/development/TodoApi/obj/Debug/net8.0/TodoApi.MvcApplicationPartsAssemblyInfo.cache
+/home/user/development/TodoApi/obj/Debug/net8.0/TodoApi.sourcelink.json
+/home/user/development/TodoApi/obj/Debug/net8.0/TodoApi.dll
+/home/user/development/TodoApi/obj/Debug/net8.0/refint/TodoApi.dll
+/home/user/development/TodoApi/obj/Debug/net8.0/TodoApi.pdb

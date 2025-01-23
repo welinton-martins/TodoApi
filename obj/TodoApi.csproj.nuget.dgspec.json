@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/ninja/TodoApi/TodoApi.csproj": {}
+    "/home/user/development/TodoApi/TodoApi.csproj": {}
   },
   "projects": {
-    "/home/ninja/TodoApi/TodoApi.csproj": {
+    "/home/user/development/TodoApi/TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ninja/TodoApi/TodoApi.csproj",
+        "projectUniqueName": "/home/user/development/TodoApi/TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "/home/ninja/TodoApi/TodoApi.csproj",
-        "packagesPath": "/home/ninja/.nuget/packages/",
-        "outputPath": "/home/ninja/TodoApi/obj/",
+        "projectPath": "/home/user/development/TodoApi/TodoApi.csproj",
+        "packagesPath": "/home/user/.nuget/packages/",
+        "outputPath": "/home/user/development/TodoApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/ninja/.nuget/NuGet/NuGet.Config"
+          "/home/user/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,7 +32,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -46,19 +52,25 @@
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[8.0.4, )"
+              "version": "[9.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.4, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[14.2.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -79,7 +91,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.4, 8.0.4]"
+              "version": "[8.0.12, 8.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.12, 8.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.12, 8.0.12]"
             }
           ],
           "frameworkReferences": {
@@ -90,7 +110,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.104/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
